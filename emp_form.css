@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+.nav{
+    padding-top: 15px;
+    text-align: center;
+    background-color: aqua;
+    height: 60px;
+    margin-top: 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+.emp_form{
+    margin: auto 200px;
+}
+.data_filling{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
+.data_filling .item1{
+    width: 50%;
+    padding: 100px;
+}
+.data_filling .item2 {
+    padding: 100px;
+    font-weight: bold;
+}
+.data_filling .item1 h2{
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 50px;
+}
+.data_filling .item2 .input1 input{
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.data_filling .item2 .input1{
+    line-height: 40px;
+}
+.detail .input2 input{
+    padding: 20px 300px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.detail .input2{
+    line-height: 40px;
+    font-weight: bold;
+}
+.detail{
+    padding-left: 190px;
+}
+
+.detail .input2 textarea{
+    margin-top: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.detail .input2 .btn{
+    margin-top: 20px;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    margin-left: 35%;
+    background-color: #72F8C3;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
